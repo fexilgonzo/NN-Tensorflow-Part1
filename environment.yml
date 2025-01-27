@@ -1,0 +1,12 @@
+name: tensorflow_nn_project
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - tensorflow
+  - pandas
+  - scikit-learn
+  - pip
+  - pip:
+      - matplotlib
